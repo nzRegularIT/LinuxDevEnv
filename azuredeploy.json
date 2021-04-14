@@ -28,7 +28,7 @@
     },
     "adminPasswordOrKey": {
       "type": "securestring",
-      "defaultValue": "[string(resourcegroup().id)]",
+      "defaultValue": "[concat(string(resourcegroup().id),'!@#$')]",
       "metadata": {
         "description": "SSH Key or password for the Virtual Machine. SSH key is recommended."
       }
